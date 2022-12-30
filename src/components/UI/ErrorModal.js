@@ -36,7 +36,8 @@ const ErrorModal = (props) => {
           title={props.title}
           message={props.message}
           onConfirm={props.onConfirm}
-        />, document.getElementById('overlay-root')
+        />,
+        document.getElementById("overlay-root")
       )}
     </React.Fragment>
   );
